@@ -46,3 +46,18 @@ button.accept-policy {
   white-space: nowrap;
   line-height: 60px;
 }
+
+.navbar-custom {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.navbar-degradado, .footer-degradado {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.navbar-degradado .navbar-brand,
+.navbar-degradado .nav-link,
+.footer-degradado,
+.footer-degradado a {
+    color: white !important;
+}
